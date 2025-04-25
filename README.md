@@ -1,11 +1,9 @@
-# 🧵 Lock-Free Structures in Modern C++
+# 🧵 Memory-Order Structures in Modern C++
 
-This repository demonstrates lock-free data structures using modern C++. Lock-free programming allows multiple threads to access shared data **without using locks**, reducing contention and improving performance in high-concurrency environments.
+This repository demonstrates how different `std::memory_order` options affect the performance of atomic operations in multi-threaded programs. Understanding memory ordering is essential for writing efficient and correct lock-free code.
 
 ## 📂 Contents
 
-- `lock_free_ring_buffer.cpp`: A lock-free ring (circular) buffer using `std::atomic` for single-producer/single-consumer scenarios.
-- `multi_producer_ring_buffer.cpp`: A lock-free multi-producer/single-consumer ring buffer.
 - `memory_order_benchmark.cpp`: Benchmarks different `std::memory_order` types under atomic operations.
 
 ---
