@@ -54,11 +54,6 @@ memory_order_seq_cst: 1010 ms
 | `memory_order_acq_rel`| Combines acquire + release for both read and write safety.                  |
 | `memory_order_seq_cst`| Strongest and safest. Enforces a single global order. Slowest but correct.  |
 
-## 📎 Reference
-
-- [cppreference: std::memory_order](https://en.cppreference.com/w/cpp/atomic/memory_order)
-- [Herb Sutter: Atomic<> Weapons](https://www.youtube.com/watch?v=A8eCGOqgvH4)
-
 ---
 
 This benchmark is part of the `lock-free-structures-cpp` repository. 🚀
